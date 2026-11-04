@@ -1,23 +1,76 @@
 {
   "candidate": {
     "name": "Regina Usman",
-    "field": "Cybersecurity & Software Engineering",
-    "specializations": ["API Security", "Penetration Testing", "Application Security"]
+    "education": "B.Tech Cyber Security Science, Federal University of Technology Minna (2:1 Second Class Upper, 2022-2027)",
+    "field": "Cybersecurity, API Security & AI Red Teaming",
+    "certifications": [
+      "Certified API Security Analyst (CASA) - APISEC (July 2026)",
+      "Junior Penetration Tester 1 (PT1) - TryHackMe (August 2025)",
+      "electronic Junior Penetration Tester (eJPT) - INE (November 2024)",
+      "Certified Cybersecurity (CC) - (ISC)² (September 2024)"
+    ],
+    "profiles": {
+      "github": "https://github.com/Cyb3rzee",
+      "medium": "https://medium.com/@cyb3rzee",
+      "linkedin": "https://www.linkedin.com/in/regina-usman-8293a9287"
+    }
   },
   "experiences": [
     {
       "id": "exp_01",
-      "category": "API Security & Infrastructure",
-      "title": "API Gateway & Security Architecture",
-      "technologies": ["AWS API Gateway", "JWT Authorization", "OAuth2", "Rate Limiting"],
-      "verified_details": "Designed and configured API gateways and security controls, implementing rate limiting and token validation mechanisms."
+      "category": "Penetration Testing & Web Security",
+      "title": "Penetration Tester at Konfik Innovations",
+      "technologies": ["Burp Suite", "Nmap", "ffuf", "Postman", "OWASP Web Top 10"],
+      "verified_details": "Conducted authorized security assessments of client web applications, APIs, and network systems. Performed reconnaissance, vulnerability validation, risk-rated reporting, and remediation retesting with engineering teams (Jan 2026 - Present)."
     },
     {
       "id": "exp_02",
-      "category": "Penetration Testing",
-      "title": "Fintech Application Security Assessment",
-      "technologies": ["Burp Suite", "OWASP API Top 10", "BOLA / BFLA / BOFLA Testing"],
-      "verified_details": "Conducted security assessments on web and API endpoints for fintech applications, identifying Broken Object Level Authorization (BOLA), BFLA, and business logic flaws."
+      "category": "API Security & Application Testing",
+      "title": "Penetration Tester at BridgePay Enterprise",
+      "technologies": ["Burp Suite", "Postman", "API Security", "XSS", "Authentication Testing"],
+      "verified_details": "Tested backend APIs and web applications. Identified unrestricted file upload, weak password policies, sensitive information disclosure, stored XSS, unvalidated URL input, email enumeration, and credential reuse flaws (April 2025 - Present)."
+    },
+    {
+      "id": "exp_03",
+      "category": "AI Security & Red Teaming",
+      "title": "PortSwigger LLM Learning Path & AI Security Training",
+      "technologies": ["OWASP Top 10 for LLMs", "Prompt Injection", "Agentic AI Security", "PortSwigger Labs"],
+      "verified_details": "Completed hands-on exercises focused on security vulnerabilities in LLM applications. Studied OWASP Top 10 for LLM Applications, AI safety, AGI risks, agentic security governance (Columbia, Stanford, Lens Academy, TCM Security)."
+    },
+    {
+      "id": "exp_04",
+      "category": "API Security & Vulnerability Assessment",
+      "title": "API Security Assessments (VAmPI, vAPI, Zero-Health)",
+      "technologies": ["Docker", "Burp Suite", "Postman", "Swagger/OpenAPI", "OWASP API Top 10"],
+      "verified_details": "Performed full API security audits against lab environments (VAmPI, vAPI, Zero-Health). Identified and exploited BOLA, BFLA, Mass Assignment, Injection, CORS misconfigurations, Excessive Data Exposure, and Broken Authentication."
+    },
+    {
+      "id": "exp_05",
+      "category": "Cloud Security & Infrastructure",
+      "title": "AWS API Gateway Security Hardening",
+      "technologies": ["AWS API Gateway", "IAM Policies", "Rate Limiting", "Throttling", "Token Validation"],
+      "verified_details": "Designed and deployed a secure AWS API Gateway architecture. Configured IAM access controls, resource policies, rate limiting, and throttling to prevent unauthorized access and API abuse."
+    },
+    {
+      "id": "exp_06",
+      "category": "Financial Security & PCI DSS Compliance",
+      "title": "PCI DSS Banking API Audit & VulnBank Exploitation",
+      "technologies": ["Burp Suite", "Docker", "JWT Editor", "PCI DSS", "Tokenization"],
+      "verified_details": "Audited banking API endpoints for cardholder data exposure (Primary Account Numbers) and PCI DSS compliance gaps. Deployed VulnBank in Docker, exploiting broken authorization, mass assignment, and weak session handling."
+    },
+    {
+      "id": "exp_07",
+      "category": "Authentication & Cryptographic Analysis",
+      "title": "JWT Token Analysis & Exploitation Lab",
+      "technologies": ["jwt.io", "xjwt.io", "Burp JWT Editor"],
+      "verified_details": "Analyzed JSON Web Tokens (JWT) for weak signing algorithms, expired tokens, and insecure signing mechanisms. Executed authentication bypasses via token manipulation."
+    },
+    {
+      "id": "exp_08",
+      "category": "Fellowship & Cybersecurity Training",
+      "title": "CyberGirls Fellowship & API Security Training (Cybersafe Foundation)",
+      "technologies": ["Bash", "Python", "Metasploit", "Hydra", "Nmap", "Postman"],
+      "verified_details": "Completed intensive web and network penetration testing traineeships (March 2023 - March 2026). Automated recon/exploitation using Bash and Python. Led security audits of vulnerable environments."
     }
   ]
 }
