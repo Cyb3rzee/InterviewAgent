@@ -1,0 +1,23 @@
+{
+  "candidate": {
+    "name": "Regina Usman",
+    "field": "Cybersecurity & Software Engineering",
+    "specializations": ["API Security", "Penetration Testing", "Application Security"]
+  },
+  "experiences": [
+    {
+      "id": "exp_01",
+      "category": "API Security & Infrastructure",
+      "title": "API Gateway & Security Architecture",
+      "technologies": ["AWS API Gateway", "JWT Authorization", "OAuth2", "Rate Limiting"],
+      "verified_details": "Designed and configured API gateways and security controls, implementing rate limiting and token validation mechanisms."
+    },
+    {
+      "id": "exp_02",
+      "category": "Penetration Testing",
+      "title": "Fintech Application Security Assessment",
+      "technologies": ["Burp Suite", "OWASP API Top 10", "BOLA / BFLA / BOFLA Testing"],
+      "verified_details": "Conducted security assessments on web and API endpoints for fintech applications, identifying Broken Object Level Authorization (BOLA), BFLA, and business logic flaws."
+    }
+  ]
+}
